@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: fonts-font;
+  src: url(CocogoosePro-trial.ttf);
+}
