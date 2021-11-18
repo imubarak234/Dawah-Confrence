@@ -14,7 +14,6 @@ const link9 = document.createElement('a');
 const link10 = document.createElement('a');
 
 const body = document.querySelector('body');
-//const body1 = document.getElementById('bobyabout');
 
 contain.append(button01);
 button01.append(divs);
@@ -68,36 +67,26 @@ link9.innerHTML = 'News';
 link10.innerHTML = 'More Details';
 
 const menu = document.querySelector('.nav-icons');
-//const menu1 = document.getElementById('about');
 
 function mobileMenu() {
   body.append(contain);
-  //body1.append(contain);
 }
 
 function removeMenu() {
   contain.parentNode.removeChild(contain);
 }
 
+const menu1 = document.getElementById('about');
+
 const meeting = document.querySelectorAll('.fronts');
 const meeting2 = document.querySelectorAll('.section-3 .fronts2');
 const more = document.querySelector('.final-section a');
 
-function muteing() {
-  meeting.forEach((implement) => {
-    implement.style.display = 'flex';
-  });
 
-  meeting2.forEach((nice) => {
-    nice.style.display = 'flex';
-  });
-  more.style.display = 'none';
-}
 
-more.addEventListener('click', muteing);
+
 
 menu.addEventListener('click', mobileMenu);
-
 button01.addEventListener('click', removeMenu);
 link1.addEventListener('click', removeMenu);
 link2.addEventListener('click', removeMenu);
