@@ -23,6 +23,7 @@ Contributions, issues, and features requests are welcome!
 Feel free to check the issues page https://github.com/imubarak234/Dawah-Confrence/issues
 
 ## Live Demo
+[Live Demo](https://imubarak234.github.io/Dawah-Confrence/)
 
 ## Show Your Support 
 Lets us know if the project was helpful to you
