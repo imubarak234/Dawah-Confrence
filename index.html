@@ -5,26 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dawah Conference Nigeria</title>
+  <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Main grid container-->
-  <div class="container-fluid grid-wrap">
+  <div class="grid-wrap">
     <header>
       <!--Navbar start-->
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
-          <ul class="navbar-nav">
+      <nav class="navbar navbar-expand-sm navbar-dark navigation" id="nav-1">
+        <div class="container-fluid" id="head-1">
+          <ul class="navbar-nav flex">
             <li class="nav-item">
               <a href="#" class="navbar-brand">
-                <img src="" alt="">
+                <img src="images/Icon - Twitter.svg" alt="Twitter-icon">
               </a>
             </li>
             <li class="nav-item">
               <a href="#" class="navbar-brand">
-                <img src="" alt="">
+                <img src="images/Vector.svg" alt="icon">
               </a>
             </li>
             <li class="nav-item">
@@ -40,16 +41,16 @@
         </div>
       </nav>
   
-      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <nav class="navbar navbar-expand-sm bg-light navbar-light navigation" id="head-2">
         <div class="container-fluid">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav flex arrange">
             <li class="nav-item">
-              <a href="#" class="navbar-brand">
-                <img src="" alt="">
+              <a href="./index.html" class="navbar-brand">
+                <img src="images/winged-globe-logoa.jpg" alt="" class="nav2-img">
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="./About.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Program</a>
@@ -60,8 +61,11 @@
             <li class="nav-item">
               <a href="#" class="nav-link">Sponsor</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item move">
               <a href="#" class="nav-link">News</a>
+            </li>
+            <li class="nav-item last-link relate">
+              <a href="#" class="nav-link">More Details</a>
             </li>
           </ul>
         </div>
@@ -70,24 +74,145 @@
     <!--Nav bar ends-->
 
     <!--Landing Section With Main Heading Text-->
-    <section class="container-fluid">
-      <h2 class="h2">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h2>
-      <h1 class="h1">Islamic Dawah Conference <br>On African unity <br>2021</h1>
-      <p class="display-6 .text-center">Said Moses to his people: "Pray for help from ALLAH, and (wait) in patience and constancy: for the earth is 
-        ALLAH's to give as a heritage to such of His servants as HE pleases; and the end is (best) for the righteous"
-      (Al-Quran 7:128)</p>
-      <br>
-      <h2 class="h3">2021.8.12(WED) ~ 14(FRI)</h2>
-      <p class="display-4">@ National Conference Center, Abuja Nigeria</p>
-    </section>
-
-    <section class="container-fluid">
-      <h2 class="h3">Tafsir (تفسير)</h2>
-      <span class="line"></span>
-      <div>
-        <div class="card"></div>
+    <section class="container-fluid section-1 flex direction arrange ">
+      <button class="nav-icons relate">
+        <div class="nav-img relate"></div>
+      </button>
+      <div class="container section-1-inner mt-sm-3">
+        <h2 class="h3 mt-5">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h2>
+        <h1 class="main-text">Islamic Dawah Conference On African unity 2021</h1>
+        <p class="md-text mt-4">Said Moses to his people: "Pray for help from ALLAH, and (wait) in patience and constancy: for the earth is 
+          ALLAH's to give as a heritage to such of His servants as HE pleases; and the end is (best) for the righteous"
+        (Al-Quran 7:128)</p>
+        <img src="images/noun_Prayer_2105380.png" alt="icon" class="landing-img">
+        <br>
+        <h2 class="texting my-3">2021.8.12(WED) ~ 14(FRI)</h2>
+        <p class="section-1-margin">@ National Conference Center, Abuja Nigeria</p>
       </div>
     </section>
+
+    <!--The Tafsir section-->
+    <section class="container-fluid flex direction section-2 mb-4 arrange">
+      <h2 class="h3 my-4">Tafsir (تفسير)</h2>
+      <span class="line mb-4"></span>
+      <div class="grid-main mb-4 mt-3">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-2">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-md-12 col-sm-4 col-4 d-flex justify-content-center">
+                  <img src="images/noun_Prayer_2105380.png" class="card-img" alt="images">
+                </div>
+                <div class="col-md-12 col-sm-8 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Ayatul Kursi [2:255]</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac magna ultricies, placerat metus non.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card no-gutters">
+              <div class="row ">
+                <div class="col-md-12 col-sm-4 col-4 d-flex justify-content-center">
+                  <img src="images/noun_Book_4353437.png" class="card-img" alt="images">
+                </div>
+                <div class="col-md-12 col-sm-8 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Amana Al-Rasulu [1]</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac magna ultricies, placerat metus non.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-md-12 col-sm-4 col-4 d-flex justify-content-center">
+                  <img src="images/noun_desert landscape_2105375.png" class="card-img" alt="images">
+                </div>
+                <div class="col-md-12 col-sm-8 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Surah An-Najm [53]</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac magna ultricies, placerat metus non.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-md-12 col-sm-4 col-4 d-flex justify-content-center">
+                  <img src="images/noun_happy ramadan_2105430.png" class="card-img" alt="images">
+                </div>
+                <div class="col-md-12 col-sm-8 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Surah Al-Ikhlas [112]</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac magna ultricies, placerat metus non.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-md-12 col-sm-4 col-4 d-flex justify-content-center">
+                  <img src="images/noun_Phone_4353434.png" class="card-img" alt="images">
+                </div>
+                <div class="col-md-12 col-sm-8 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Surah Al-Jumuah [62]</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac magna ultricies, placerat metus non.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
+      <a href="#" class="section-2-link my-5">SEE THE WHOLE PROGRAM SCHEDULE</a>
+      <a href="#" class="section-2-link-mobile center py-4 my-5">Call To Paper</a>
+    </section>
+
+    <!--Speakers Section-->
+    <Section class="container-fluid section-3 flex direction my-5 arrange">
+      <h2 class="h3 mb-4">Key Note Speakers</h2>
+      <span class="line mb-4"></span>
+    </Section>
+
+    <!--Patners sections-->
+    <section class="container-fluid section-4 mt-4 flex direction arrange fronts" id="scrollhere">
+      <h2 class="h2 my-4">Partner</h2>
+      <span class="line mb-4"></span>
+      <div class="section-4-img flex mb-4">
+        <img src="images/b-logo.jpg" alt="">
+        <img src="images/u-logo.jpg" alt="">
+        <img src="images/american-flag-logo.jpg" alt="">
+        <img src="images/abstract-tree-logo.jpg" alt="">
+        <img src="images/rocket-ship-logo.jpg" alt="">
+      </div>
+    </section>
+
+    <!--Footer starts-->
+    <footer class="container-fluid flex section-5 py-4 arrange fronts">
+      <img src="images/winged-globe-logoa.jpg" alt="footer-logo" class="px-4">
+      <div class="px-3">
+        <h4 class="h5">Dawah Conference © 2021 All rights reserved. Designed by Mubarak Ibrahim</h4>
+        <p>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+        <p>قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ</p>
+        <p>لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ</p>
+      </div>
+    </footer>
+    
+    <div class="final-section arrange my-4">
+      <a href="#scrollhere" class="center py-3">MORE <span>\/</span></a>
+    </div>
   </div>
+  <script src="./menu.js"></script>
+  <script src="./speakers.js"></script>
 </body>
 </html>
