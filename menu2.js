@@ -76,16 +76,6 @@ function removeMenu() {
   contain.parentNode.removeChild(contain);
 }
 
-const menu1 = document.getElementById('about');
-
-const meeting = document.querySelectorAll('.fronts');
-const meeting2 = document.querySelectorAll('.section-3 .fronts2');
-const more = document.querySelector('.final-section a');
-
-
-
-
-
 menu.addEventListener('click', mobileMenu);
 button01.addEventListener('click', removeMenu);
 link1.addEventListener('click', removeMenu);

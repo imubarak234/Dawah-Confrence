@@ -14,7 +14,7 @@ const link9 = document.createElement('a');
 const link10 = document.createElement('a');
 
 const body = document.querySelector('body');
-//const body1 = document.getElementById('bobyabout');
+// const body1 = document.getElementById('bobyabout');
 
 contain.append(button01);
 button01.append(divs);
@@ -68,11 +68,11 @@ link9.innerHTML = 'News';
 link10.innerHTML = 'More Details';
 
 const menu = document.querySelector('.nav-icons');
-//const menu1 = document.getElementById('about');
+// const menu1 = document.getElementById('about');
 
 function mobileMenu() {
   body.append(contain);
-  //body1.append(contain);
+  // body1.append(contain);
 }
 
 function removeMenu() {
