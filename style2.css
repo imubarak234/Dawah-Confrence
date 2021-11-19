@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+  font-family: fonts-font;
+  src: url(CocogoosePro-trial.ttf);
+}
+
+.flex {
+  display: flex;
+}
+
+.direction {
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
+}
+
+.arrange {
+  justify-content: center;
+  align-items: center;
+}
+
+.relate {
+  position: relative;
+}
+
+.section-1 {
+  background-image: url(images/F6LibSYk_4x.jpg);
+  background-size: cover;
+  color: white;
+  height: auto;
+}
+
+.section-1-margin {
+  margin-bottom: 20%;
+}
+
+.nav2-img {
+  width: 50%;
+  height: 80%;
+}
+
+.md-text {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 70;
+  position: relative;
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  color: black;
+}
+
+.section-1 h1 {
+  font-size: 3em;
+  font-weight: 650;
+  color: #ec5242;
+}
+
+.section-1-text {
+  font-size: 1.2em;
+}
+
+.landing-img {
+  position: absolute;
+  width: 12em;
+  height: 10em;
+  left: 15%;
+  bottom: 15%;
+  z-index: 0;
+}
+
+#head-1 {
+  justify-content: end;
+  padding-right: 10%;
+}
+
+#head-2 {
+  padding: 0;
+}
+
+#nav-1 {
+  padding: 0;
+  background-color: #272a31;
+}
+
+.section-5 p {
+  font-size: 0.7em;
+  line-height: 0.3em;
+}
+
+#nav-1 ul {
+  align-items: center;
+}
+
+#head-2 li {
+  padding-right: 4%;
+  position: relative;
+}
+
+#head-2 ul {
+  width: 100%;
+}
+
+#head-2 .last-link {
+  border: 2px solid #ec5242;
+  width: auto;
+  padding: 0;
+}
+
+#head-2 .move {
+  padding-right: 10%;
+}
+
+.section-2 {
+  background-color: #f6f6f6;
+}
+
+.section-2 p {
+  width: 50%;
+}
+
+.section-2 img {
+  width: 40%;
+  height: 34vh;
+}
+
+.line {
+  width: 6%;
+  height: 5%;
+  border-bottom: 2px solid #ec5242;
+}
+
+.section-3 {
+  height: auto;
+}
+
+.section-3-inner {
+  justify-content: center;
+}
+
+.section-3-inner a {
+  width: 35%;
+}
+
+.section-3-inner .inner-card h4,
+.section-3-inner .inner-card p {
+  color: white;
+  font-weight: 650;
+}
+
+.section-5 {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.section-5 h2 {
+  font-size: 1em;
+}
+
+.section-4 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #nav-1,
+  #head-2 {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  .nav-icons {
+    z-index: 30;
+    cursor: pointer;
+    display: block;
+    width: 16%;
+    height: 86%;
+    right: 40%;
+    background-color: rgba(198, 198, 198, 0);
+    border: rgba(198, 198, 198, 0);
+  }
+
+  .nav-img {
+    display: block;
+    background-image: url(images/Icon-Menu.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 60px;
+    top: 8%;
+    left: 5%;
+    z-index: 50;
+  }
+
+  .nav-img-cancel1 {
+    display: block;
+    background-image: url(images/Icon-Cancel.svg);
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 60px;
+    top: 8%;
+    left: 5%;
+    z-index: 50;
+  }
+
+  .mobile-head {
+    position: fixed;
+    border: 2px solid black;
+    height: auto;
+    padding: 5%;
+    overflow-y: scroll;
+    background-color: black;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-nav a {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+  }
+
+  .nav-icons1 {
+    z-index: 30;
+    cursor: pointer;
+    display: block;
+    width: 10%;
+    height: 8%;
+    background-color: rgba(198, 198, 198, 0);
+    border: rgba(198, 198, 198, 0);
+  }
+
+  .section-2 h2 {
+    width: 70%;
+  }
+
+  .section-2 p {
+    width: 70%;
+  }
+
+  .section-2 img {
+    width: 60%;
+  }
+
+  .section-3-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-3-inner a {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .md-text {
+    width: auto;
+  }
+
+  .md-text span {
+    display: none;
+  }
+
+  .landing-img {
+    bottom: 44%;
+    left: 59%;
+  }
+
+  .section-4 {
+    height: auto;
+    background-color: #f6f6f6;
+    display: flex;
+  }
+
+  .section-4-img {
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section-4 img {
+    width: 27%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .landing-img {
+    bottom: 27%;
+  }
+
+  .section-2 h2 {
+    width: auto;
+  }
+
+  .section-2 p {
+    width: auto;
+  }
+
+  .section-2 img {
+    width: auto;
+  }
+}
