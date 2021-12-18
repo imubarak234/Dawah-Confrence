@@ -1,6 +1,8 @@
 # Dawah-Confrence
 An event website for a Dawah Conference. The said website is the customer/audience-facing platform for the Islamic Dawah conference. The conference is held every two years in different African countries with a plan to go global. This website includes conference information, logistics information, speakers, topics addressed, and much other important information. Please feel free to engage the site.
 
+![Screenshot (19)](https://user-images.githubusercontent.com/71400898/146649674-b3953b5c-6159-40d3-9fd2-a17435d9aec1.png)
+
 ## Documentation
 To view the documentaion for this [link](https://www.loom.com/share/f9a06786684d4b128b9a8199a1ff3478)
 
